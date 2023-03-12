@@ -1,0 +1,28 @@
+/* reset */
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+/* // reset */
+
+/* utility */
+:root {
+    --background: #3374FF;
+    --default: #ff767dff;
+    --fizz: #33FFEC;
+    --buzz: #33FF6B;
+    --fizz-buzz: #FF7433;
+}
+/* // utility */
+
+/* common rules */
+#ms-back {
+    background-color: var(--background);
+}
+
+.col {
+    border: 1px solid black;
+}
+/* // common rules */
+
